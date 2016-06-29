@@ -1,0 +1,46 @@
+flask-wtf (0.11-1) trusty; urgency=low
+
+  * New upstream release.
+
+ -- Daniel Dadap <ddadap@nvidia.com>  Mon, 6 Apr 2015 15:48:19 -0500
+
+flask-wtf (0.6-1) unstable; urgency=low
+
+  [ Jakub Wilk ]
+  * Add Vcs-* fields.
+
+  [ Bernd Zeimetz ]
+  * New upstream release.
+
+ -- Bernd Zeimetz <bzed@debian.org>  Thu, 26 Apr 2012 20:01:14 +0200
+
+flask-wtf (0.5.2-2) unstable; urgency=low
+
+  * Team upload.
+  * Convert to dh_python2
+  * Bump python-flask's minimum required version to 0.6.1-2 (which provides
+    flaskext namespace now)
+  * Remove .pth file from binary package
+  * Add python-wtforms and python-flask to Build-Depends-Indep (Sphinx uses
+    them while generating docs)
+
+ -- Piotr Ożarowski <piotr@debian.org>  Sat, 07 May 2011 19:41:53 +0200
+
+flask-wtf (0.5.2-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Bernd Zeimetz <bzed@debian.org>  Mon, 14 Feb 2011 14:48:21 +0100
+
+flask-wtf (0.3.3-2) unstable; urgency=low
+
+  * Rename binary package to be really according to the
+    policy before it goes into unstable.
+
+ -- Bernd Zeimetz <bzed@debian.org>  Wed, 20 Oct 2010 15:23:59 +0200
+
+flask-wtf (0.3.3-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Bernd Zeimetz <bzed@debian.org>  Wed, 20 Oct 2010 11:40:25 +0200

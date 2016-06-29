@@ -1,0 +1,25 @@
+Source: flask-wtf
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Bernd Zeimetz <bzed@debian.org>
+Section: python
+Priority: optional
+Build-Depends: python (>= 2.6.6-6), python-setuptools (>= 0.6b3), debhelper (>= 7.0.50~)
+Build-Depends-Indep: python-sphinx (>= 0.6), python-flask, python-wtforms
+Standards-Version: 3.9.2
+Homepage: http://packages.python.org/Flask-WTF/
+X-Python-Version: >= 2.5
+Vcs-Svn: svn://svn.debian.org/python-modules/packages/flask-wtf/trunk/
+Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/flask-wtf/trunk/
+
+Package: python-flaskext.wtf
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-flask (>= 0.6.1-2), python-werkzeug (>= 0.6.1), python-wtforms (>= 0.6.1), python-jinja2 (>= 2.4), python (>= 2.5.4-5~) | python-simplejson
+Recommends: libjs-jquery
+Suggests: python-flaskext.babel
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Conflicts: python-flaskext-wtf
+Replaces: python-flaskext-wtf
+Description: Simple integration of Flask and WTForms
+ Flask-WTF is an extension for Flask, providing a simple integration
+ of WTForms. It includes optional CSRF handling and Recaptcha support.
